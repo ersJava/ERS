@@ -1,0 +1,87 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Hello container */
+.bg-1 {
+    background-color: #675682;
+    color: whitesmoke;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* opacity: 0.6; */
+}
+
+/* Portfolio container */
+.bg-2 {
+    background-color: whitesmoke;
+    color: #e52a6f;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* opacity: 0.6; */
+}
+
+/* About me container */
+.bg-3 {
+    background-color: #5f0f4e;
+    color: whitesmoke;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    /* opacity: 0.6; */
+}
+
+a:hover {
+    color: #e52a6f;
+  }
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+    background-color: #67aeca;
+    border: 0;
+    font-size: 16px !important;
+    letter-spacing: 2.5px;
+    
+  }
+
+  .navbar-brand {
+      font-size: 22px;
+      font-weight: 700;
+  }
+
+  .navbar-brand a:hover {
+    color: #e52a6f;
+  }
+  
+
+  .navbar-brand .active a {
+    color: #e52a6f !important;
+  }
+
+
+  .navbar li a, .navbar .navbar-brand { 
+    color: whitesmoke !important;
+  }
+  
+  /* On hover, the links will turn white */
+  .navbar-nav li a:hover {
+    color: #e52a6f !important;
+  }
+  
+  /* The active link */
+  .navbar-nav li.active a {
+    color: #e52a6f !important;
+   
+  }
+  
+  /* Remove border color from the collapsible button */
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  
+ 
+
