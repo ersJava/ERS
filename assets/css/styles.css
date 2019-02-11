@@ -41,8 +41,8 @@ p {
 .bg-3 {
   background-color: #5f0f4e;
   color: whitesmoke;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   ;
   /* opacity: 0.6; */
 }
@@ -283,7 +283,7 @@ footer {
 }
 
 
-/* Contact */
+/* Contact Overlay styles */
 #newsletter {
   background: transparent url(../images/nyc.jpg) no-repeat center top fixed;
   background-size: cover;
@@ -293,20 +293,9 @@ footer {
   background: linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.2) 95%);
   height: 100%;
   width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
-/* 
-#newsletter .form-control {
-  background-color: transparent;
-  border: 1px solid #dddddd;
-  border-radius: 0;
-  color: #888;
-  font-size: 11px;
-  font-weight: 600;
-  height: 200px;
-  text-align: center;
-  width: 70%;
-  background: #fff;
-} */
 
 @media (max-width: 575px) {
   #newsletter .form-control {
@@ -315,46 +304,65 @@ footer {
   }
 }
 
-#newsletter .btn {
-  background: #67aeca;
-  color: whitesmoke;
-  border: 0;
-  border-radius: 0;
-  height: 50px;
-  width: 30%;
-  transition: 0.3s;
-}
-
 @media (max-width: 575px) {
   #newsletter .btn {
     width: 100%;
   }
 }
 
-#newsletter .btn:hover {
-  background:#e52a6f;
+/* Contact styles */
+#contact {
+  height: auto;
+  width: 100%;
 }
 
-#newsletter .btn .fa {
-  padding-right: 10px;
+.contact-details {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* #newsletter ul {
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 0;
-} */
+.contact-details li {
+  padding-bottom: 10px;
+}
 
-/* #newsletter ul li {
-  background: #71c55d;
-  border-radius: 50px;
-  float: left;
-  height: 35px;
-  line-height: 35px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 35px;
-  transition: 0.3s;
-} */
+#contact input, #contact textarea {
+  width: 100%;
+}
 
 
+#contact  #sendmessage {
+  color: #18d26e;
+  border: 1px solid #18d26e;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+#contact  #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+  display: block;
+}
+
+#contact .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.btn {
+  color:blue;
+}

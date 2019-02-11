@@ -18,6 +18,10 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Carrois+Gothic+SC" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -233,49 +237,108 @@
 
 
 
-
+  <!-- fade effect div starts -->
   <section id="newsletter" class="newsletter text-center wow fadeInUp">
     <div class="overlay padd-section">
+
       <!-- <div class="container"> -->
 
+     <!-- start sectoion contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
 
-      <div class="container">
-          <h3 class="text-center">Contact</h3>
-          <p class="text-center"><em>We love our fans!</em></p>
-          <div class="row test">
-            <div class="col-md-4">
-              <p>Fan? Drop a note.</p>
-              <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-              <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-              <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p> 
-            </div>
-            <div class="col-md-8">
-              <div class="row">
-                <div class="col-sm-6 form-group">
-                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                </div>
-              </div>
-              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <button class="btn pull-right" type="submit">Send</button>
-                </div>
-              </div> 
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2>GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>23 Main, Street</span></li>
+                <li><span>New York, United States</span></li>
+                <li><span>+88 01912704287</span></li>
+                <li><span>example@example.com</span></li>
+              </ul>
+
+              <h2>Social Media</h2>
+
+              <ul class="contact-details">
+                <li><span>23 Main, Street</span></li>
+                <li><span>New York, United States</span></li>
+              </ul>
+
             </div>
           </div>
-        </div>
 
+<main>
+  <p>Send email</p>
+  <form action="contactform.php" method="post">
+    <input type="text" name="name" placeholder="Full name">
+    <input type="text" name="mail" placeholder="your email">
+    <input type="text" name="subject" placeholder="subject">
+    <textarea name="message" placeholder="message"></textarea>
+    <button type="submit" name="submit">Send mail</button>
+  </form>
+  </main>
+
+
+          <div class="col-lg-6">
+            <form action="mailto:ersergeant@gmail.com" method="post" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for me" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+
+      <!-- <div class="container"> ends-->
+      <!-- fade effect div ends -->
     </div>
   </section>
 
-
-
-
-
-
+  <!-- Footer -->
   <footer class="container-fluid text-center">
     BETH SERGEANT
     <br>
