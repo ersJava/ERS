@@ -3,26 +3,23 @@ body {
   height: 100%;
 }
 
-h1,
-h3 {
-  font-family: 'Carrois Gothic SC', sans-serif;
+h1 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+
 }
 
 p {
   font-size: 22px;
   font-weight: lighter;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }
-
-/* .img {
-    height: 300px;
-    object-fit: scale-down;
-} */
 
 /* Hello container */
 .bg-1 {
   background-color: #675682;
-  color: whitesmoke;
+  color: #f4f4f4;
   padding-top: 200px;
   padding-bottom: 200px;
   /* opacity: 0.6; */
@@ -30,7 +27,7 @@ p {
 
 /* Portfolio container */
 .bg-2 {
-  background-color: whitesmoke;
+  background-color: #f4f4f4;
   color: #e52a6f;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -40,11 +37,21 @@ p {
 /* About me container */
 .bg-3 {
   background-color: #5f0f4e;
-  color: whitesmoke;
+  color: #f4f4f4;
   padding-top: 150px;
   padding-bottom: 150px;
   ;
   /* opacity: 0.6; */
+}
+
+#logo {
+  font-family: 'Kristi', cursive;
+  font-size: 54px;
+}
+
+#logo-content {
+  font-family: 'Kristi', cursive;
+  font-size: 44px;
 }
 
 footer {
@@ -56,14 +63,16 @@ footer {
 
 /* Logo styles */
 .navbar-brand {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 28px;
+  font-family: 'Kristi', cursive;
+  font-size: 44px;
+  font-weight: lighter;
+  letter-spacing: 4px;
 
 }
 
 /* Nav bar styles */
 .navbar {
-  font-family: 'Carrois Gothic SC', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 22px;
   margin-bottom: 0;
   background-color: #67aeca;
@@ -78,12 +87,12 @@ footer {
 
 .navbar li a,
 .navbar .navbar-brand {
-  color: whitesmoke !important;
+  color: #f4f4ff !important;
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: whitesmoke !important;
+  color: #f4f4f4 !important;
   background-color: #e52a6f !important;
 }
 
@@ -293,8 +302,8 @@ footer {
   background: linear-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.2) 95%);
   height: 100%;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 575px) {
@@ -314,24 +323,32 @@ footer {
 #contact {
   height: auto;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #e52a6f;
 }
 
 .contact-details {
+  font-family: 'Poppins', sans-serif;
+  color: rgba(143, 142, 142, 0.911);
+  font-size: 18px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .contact-details li {
+  font-family: 'Poppins', sans-serif;
   padding-bottom: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input,
+#contact textarea {
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 
 
-#contact  #sendmessage {
+/* #contact  #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -339,9 +356,9 @@ footer {
   padding: 15px;
   font-weight: 600;
   margin: 15px;
-}
+} */
 
-#contact  #errormessage {
+#contact #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -351,7 +368,9 @@ footer {
   margin: 15px;
 }
 
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+#contact #sendmessage.show,
+#contact #errormessage.show,
+#contact .show {
   display: block;
 }
 
@@ -364,5 +383,31 @@ footer {
 }
 
 .btn {
-  color:blue;
+  background-color: #3EC1D5;
+  color: #f4f4f4;
+}
+
+.btn:hover {
+  background-color: #e52a6f;
+  color: #f4f4f4;
+}
+
+.fa {
+font-size: 30px;
+padding: 10px;
+}
+
+.fa-phone {
+  color: #3EC1D5;
+  font-size: 14px;
+}
+
+.fa-location-arrow {
+  color: #3EC1D5;
+  font-size: 14px;
+}
+
+.fa-envelope {
+  color: #3EC1D5;
+  font-size: 14px; 
 }

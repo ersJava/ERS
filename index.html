@@ -14,13 +14,12 @@
 
   <!--My custom styles -->
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-  <script src="assets/js/animation.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/animation.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Carrois+Gothic+SC" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
   <!-- Font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Kristi|Playfair+Display|Poppins" rel="stylesheet">
 
 </head>
 
@@ -36,7 +35,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Beth Sergeant</a>
+        <a class="navbar-brand" href="#">Beth</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -50,14 +49,16 @@
   <!-- End of nav bar -->
 
   <div class="container-fluid bg-1 text-center">
-    <h1>My name is Beth.</h1>
-    <p>I love to create, develop and design.</p>
+
+
+    <h1 class="title">HELLO WORLD!</h1>
+
+    <h1>I'm <span id="logo">Beth</span> Sergeant.</h1>
+    <h2>I love to<span class="awesome typewrite" data-period="2000" data-type='[ " create.", " develop.", " design."]'></span></h2>
     <p>I'm a Full stack web developer located in New York City.</p>
     <p>Welcome to my page, please have a look around.</p>
     <i class="fa fa-terminal" aria-hidden="true"></i>
   </div>
-
-
 
   <!-- Start portfolio Area -->
   <div class="container-fluid bg-2 text-center">
@@ -206,7 +207,7 @@
           <div class="col-md-4 ">
             <div class="div-img-bg">
               <div class="about-img">
-                <img src="assets/images/me00.jpg" class="img-responsive" alt="me">
+                <img src="assets/images/me01.jpg" class="img-responsive" alt="me">
 
               </div>
             </div>
@@ -235,105 +236,84 @@
   </div>
   <!-- End of about section -->
 
-
-
   <!-- fade effect div starts -->
   <section id="newsletter" class="newsletter text-center wow fadeInUp">
     <div class="overlay padd-section">
 
-      <!-- <div class="container"> -->
+      <!-- start sectoion contact -->
+      <div id="contact">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
 
-     <!-- start sectoion contact -->
-  <div id="contact">
-    <div class="container">
-      <div class="contact-block1">
-        <div class="row">
+              <div class="col-lg-6">
+                <div class="contact-contact">
 
-          <div class="col-lg-6">
-            <div class="contact-contact">
+                    <h2>Let's<span id="logo-content"> get </span>in touch</h2>
 
-              <h2>GET IN TOUCH</h2>
+                  <ul class="contact-details">
+                    <li><span><i class="fa fa-location-arrow" aria-hidden="true"></i>New York, NY</span></li>
+                    <li><span><i class="fa fa-phone" aria-hidden="true"></i> 702-481-2735</span></li>
+                    <li><span><i class="fa fa-envelope" aria-hidden="true"></i>ersergeant@gmail.com</span></li>
+                  </ul>
 
-              <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
-                <li><span>example@example.com</span></li>
-              </ul>
+                  <h2>Social<span id="logo-content"> media </span></h2>
+                  <ul class="contact-details">
+                      <i class="fa fa-github-square" aria-hidden="true"></i>
+                      <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank"><img src="assets/images/linkedin.png"
+                        class="social" alt="Linkedin logo" style="width: 30px; height: 30px" id="social"></a><span
+                    id=space>...</span>
+                <a href="https://github.com/ersJava" target="_blank"><img src="assets/images/git.png" class="social"
+                        alt="Github logo" style="width: 28px; height: 28px" id="social"></a>
+                  </ul>
 
-              <h2>Social Media</h2>
-
-              <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-              </ul>
-
-            </div>
-          </div>
-
-<main>
-  <p>Send email</p>
-  <form action="contactform.php" method="post">
-    <input type="text" name="name" placeholder="Full name">
-    <input type="text" name="mail" placeholder="your email">
-    <input type="text" name="subject" placeholder="subject">
-    <textarea name="message" placeholder="message"></textarea>
-    <button type="submit" name="submit">Send mail</button>
-  </form>
-  </main>
-
-
-          <div class="col-lg-6">
-            <form action="mailto:ersergeant@gmail.com" method="post" role="form" class="contactForm">
-              <div class="row">
-
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-
-                <div class="col-lg-6">
-                  <div class="form-group contact-block1">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
                 </div>
-
-                <div class="col-lg-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for me" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                  </div>
-                </div>
-
-                <div class="col-lg-12">
-                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                </div>
-
               </div>
-            </form>
+              <!-- Conact form starts -->
+              <div class="col-lg-6">
+                <form action="mailto:ersergeant@gmail.com" method="post" role="form" class="contactForm">
+                  <div class="row">
+                    <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
+                    <div id="errormessage"></div>
+                    <div class="col-lg-6">
+                      <div class="form-group contact-block1">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                          data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                          data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                          data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for me"
+                          placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- Contact form ends -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- start sectoion contact -->
-
-
-
-      <!-- <div class="container"> ends-->
       <!-- fade effect div ends -->
     </div>
   </section>
@@ -345,6 +325,7 @@
     &copy 2019
   </footer>
 
+  <script src="assets/js/animation.js"></script>
 </body>
 
 </html>
