@@ -22,7 +22,7 @@ p {
   color: #f4f4f4;
   padding-top: 200px;
   padding-bottom: 200px;
-  /* opacity: 0.6; */
+ 
 }
 
 /* Portfolio container */
@@ -31,7 +31,7 @@ p {
   color: #e52a6f;
   padding-top: 100px;
   padding-bottom: 100px;
-  /* opacity: 0.6; */
+
 }
 
 /* About me container */
@@ -40,8 +40,7 @@ p {
   color: #f4f4f4;
   padding-top: 150px;
   padding-bottom: 150px;
-  ;
-  /* opacity: 0.6; */
+ 
 }
 
 #logo {
@@ -277,18 +276,13 @@ footer {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 24px;
   text-align: left;
-  padding: 20px;
-}
-
-#about .about-descr .separator {
-  max-width: 90%;
-  margin-bottom: 0;
-  font-size: 18px;
-  text-align: left;
-  padding: 20px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2.5px;
+  word-spacing: 1px;
 }
 
 
@@ -306,30 +300,18 @@ footer {
   padding-bottom: 100px;
 }
 
-@media (max-width: 575px) {
-  #newsletter .form-control {
-    margin-bottom: 30px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 575px) {
-  #newsletter .btn {
-    width: 100%;
-  }
-}
 
 /* Contact styles */
 #contact {
   height: auto;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #e52a6f;
+  color: #5f0f4e;
 }
 
 .contact-details {
   font-family: 'Poppins', sans-serif;
-  color: rgba(143, 142, 142, 0.911);
+  color: #5f0f4e;
   font-size: 18px;
   list-style: none;
   margin: 0;
@@ -338,7 +320,7 @@ footer {
 
 .contact-details li {
   font-family: 'Poppins', sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 #contact input,
@@ -392,11 +374,13 @@ footer {
   color: #f4f4f4;
 }
 
+/* Hello page symbol */
 .fa {
 font-size: 30px;
 padding: 10px;
 }
 
+/* Contact page icons */
 .fa-phone {
   color: #3EC1D5;
   font-size: 14px;
@@ -411,3 +395,10 @@ padding: 10px;
   color: #3EC1D5;
   font-size: 14px; 
 }
+
+.social {
+  padding: 8px;
+  height: 50px;
+  width: 50px;  
+}
+

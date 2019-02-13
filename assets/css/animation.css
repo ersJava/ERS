@@ -77,12 +77,12 @@
   font-family: 'Poppins', sans-serif;
   color: transparent;
   font-size: 120px;
-  background: url("../images/34.png") repeat;
+  background: url("../images/1.png");
   background-position: 40% 50%;
   -webkit-background-clip: text;
-  position:relative;
-  text-align:center;
-  line-height:90px;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
   letter-spacing: -8px;
 
 }
