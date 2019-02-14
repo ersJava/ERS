@@ -11,9 +11,19 @@ h1 {
 
 p {
   font-size: 22px;
-  font-weight: lighter;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 1px;
+}
+
+/* Logo styles */
+#logo {
+  font-family: 'Kristi', cursive;
+  font-size: 54px;
+}
+
+#logo-content {
+  font-family: 'Kristi', cursive;
+  font-size: 44px;
 }
 
 /* ------------------------------- */
@@ -32,22 +42,11 @@ p {
 .fa-terminal {
   font-size: 30px;
   padding: 10px;
-  }
+}
 
 /* ------------------------------- */
 /* Nav bar */
 /* ------------------------------- */
-
-/* Logo styles */
-#logo {
-  font-family: 'Kristi', cursive;
-  font-size: 54px;
-}
-
-#logo-content {
-  font-family: 'Kristi', cursive;
-  font-size: 44px;
-}
 
 .navbar-brand {
   font-family: 'Kristi', cursive;
@@ -292,7 +291,7 @@ p {
 }
 
 #resume-button {
-  background-color: #67aeca; 
+  background-color: #67aeca;
   font-family: 'Poppins', sans-serif;
   color: #f4f4f4;
   font-size: 14px;
@@ -357,7 +356,7 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
-#contact  #sendmessage {
+#contact #sendmessage {
   color: #18d26e;
   border: 1px solid #18d26e;
   display: none;
@@ -365,7 +364,7 @@ p {
   padding: 15px;
   font-weight: 600;
   margin: 15px;
-} 
+}
 
 #contact #errormessage {
   color: red;
@@ -407,7 +406,7 @@ p {
 .fa-phone {
   color: #3EC1D5;
   font-size: 14px;
-  padding:10px;
+  padding: 10px;
 }
 
 .fa-location-arrow {
@@ -418,14 +417,14 @@ p {
 
 .fa-envelope {
   color: #3EC1D5;
-  font-size: 14px; 
+  font-size: 14px;
   padding: 10px;
 }
 
 .social {
   padding: 8px;
   height: 50px;
-  width: 50px;  
+  width: 50px;
 }
 
 /* ------------------------------- */
