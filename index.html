@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Kristi|Poppins" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <!-- Font awesome -->
-  <link href="https://fonts.googleapis.com/css?family=Kristi|Playfair+Display|Poppins:200,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kristi|Playfair+Display|Poppins:200,300|Inconsolata" rel="stylesheet">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Beth</a>
+        <a class="navbar-brand" href="#hello">Beth</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -43,7 +43,7 @@
   </nav>
   <!-- End of nav bar -->
 
-  <div class="container-fluid bg-1 text-center">
+  <div id="hello" class="container-fluid bg-1 text-center">
     <h1 class="title">HELLO WORLD!</h1>
     <h1>I'm <span id="logo">Beth</span> Sergeant.</h1>
     <h2>I love to<span class="awesome typewrite" data-period="2000" data-type='[ " create.", " develop.", " design."]'></span></h2>
@@ -53,15 +53,15 @@
   </div>
 
   <!-- Start portfolio Area -->
-  <div class="container-fluid bg-2 text-center">
-    <div id="portfolio" class="portfolio-area area-padding fix">
+  <div id="portfolio" class="container-fluid bg-2 text-center">
+    <div class="portfolio-area area-padding fix">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h1>Portfolio</h1>
-              <p>What I have been up to lately</p>
+                <h1>What I have<span id="logo-content"> been </span>up to lately</h1>
             </div>
+            <br>
           </div>
         </div>
         <div class="row">
@@ -72,12 +72,11 @@
           <div class="col-md-4 col-sm-4 col-xs-12 photo">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/images/party.png" class="img-responsive" style="width:100%" alt="Image" /></a>
+                <a href="#"><img src="assets/images/friendfinder.png" class="img-responsive" style="width:100%" alt="Friend Finder mockup" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="pic.png">
-                      <h4>Blue Sea</h4>
-                      <span>Photosho</span>
+                    <h4>Friend Finder</h4>
+                    <span>Node JS | Express JS | Bootstrap</span>
                     </a>
                   </div>
                 </div>
@@ -89,12 +88,11 @@
           <div class="col-md-4 col-sm-4 col-xs-12 photo">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="assets/images/bamazon.png" class="img-responsive" style="width:100%" alt="Image" /></a>
+                <a href="#"><img src="assets/images/liri.png" class="img-responsive" style="width:100%" alt="Image" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="pic.png">
-                      <h4>Blue Sea</h4>
-                      <span>Photosho</span>
+                    <h4>LIRI</h4>
+                    <span>Node JS | Axios</span>
                     </a>
                   </div>
                 </div>
@@ -104,97 +102,95 @@
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
           <div class="col-md-4 col-sm-4 col-xs-12 photo">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/images/friendfinder.png" class="img-responsive" style="width:100%" alt="Image" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="pic.png">
-                      <h4>Blue Sea</h4>
-                      <span>Photosho</span>
-                    </a>
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="assets/images/bamazon.png" class="img-responsive" style="width:100%" alt="Image" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <h4>Bamazon</h4>
+                      <span>Node JS | MySQL | JavaScript</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- single-awesome-project end -->
+        <!-- single-awesome-project end -->
 
-          <div id="portfolio" class="portfolio-area area-padding fix">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="portfolio" class="portfolio-area area-padding fix">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              </div>
+            </div>
+            <div class="row">
+              <!-- Start Portfolio -page -->
+
+              <!-- single-awesome-project start -->
+              <div class="col-md-4 col-sm-4 col-xs-12 photo">
+                <div class="single-awesome-project">
+                  <div class="awesome-img">
+                    <a href="#"><img src="assets/images/party.png" class="img-responsive" style="width:100%" alt="Image" /></a>
+                    <div class="add-actions text-center">
+                      <div class="project-dec">
+                        <h4>Party Like It's 1999</h4>
+                        <span>Bulma | jQuery | AJAX</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <!-- Start Portfolio -page -->
-
-                <!-- single-awesome-project start -->
-                <div class="col-md-4 col-sm-4 col-xs-12 photo">
-                  <div class="single-awesome-project">
-                    <div class="awesome-img">
-                      <a href="#"><img src="assets/images/liri.png" class="img-responsive" style="width:100%" alt="Image" /></a>
-                      <div class="add-actions text-center">
-                        <div class="project-dec">
-                          <a class="venobox" data-gall="myGallery" href="pic.png">
-                            <h4>Blue Sea</h4>
-                            <span>Photosho</span>
-                          </a>
-                        </div>
+              <!-- single-awesome-project end -->
+              <!-- single-awesome-project start -->
+              <div class="col-md-4 col-sm-4 col-xs-12 photo">
+                <div class="single-awesome-project">
+                  <div class="awesome-img">
+                    <a href="#"><img src="assets/images/crystals.jpg" class="img-responsive" style="width:100%"" alt="
+                        Image" /></a>
+                    <div class="add-actions text-center">
+                      <div class="project-dec">
+                        <a class="venobox" data-gall="myGallery" href="pic.png">
+                          <h4>Crystal Collector</h4>
+                          <span>HTML5 | CSS | jQuery</span>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <!-- single-awesome-project end -->
-                <!-- single-awesome-project start -->
-                <div class="col-md-4 col-sm-4 col-xs-12 photo">
-                  <div class="single-awesome-project">
-                    <div class="awesome-img">
-                      <a href="#"><img src="assets/images/crystals.jpg" class="img-responsive" style="width:100%"" alt="Image" /></a>
-                      <div class="add-actions text-center">
-                        <div class="project-dec">
-                          <a class="venobox" data-gall="myGallery" href="pic.png">
-                            <h4>Blue Sea</h4>
-                            <span>Photosho</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- single-awesome-project end -->
-                <!-- single-awesome-project start -->
-                <div class="col-md-4 col-sm-4 col-xs-12 photo">
-                  <div class="single-awesome-project">
-                    <div class="awesome-img">
-                      <a href="#"><img src="assets/images/p.png" class="img-responsive" style="width:100%"
-                          alt="Image" /></a>
-                      <div class="add-actions text-center">
-                        <div class="project-dec">
-                          <a class="venobox" data-gall="myGallery" href="pic.png">
-                            <h4>Blue Sea</h4>
-                            <span>Photosho</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- single-awesome-project end -->
               </div>
+              <!-- single-awesome-project end -->
+              <!-- single-awesome-project start -->
+              <div class="col-md-4 col-sm-4 col-xs-12 photo">
+                <div class="single-awesome-project">
+                  <div class="awesome-img">
+                    <a href="#"><img src="assets/images/p.png" class="img-responsive" style="width:100%" alt="Image" /></a>
+                    <div class="add-actions text-center">
+                      <div class="project-dec">
+                        <a class="venobox" data-gall="myGallery" href="pic.png">
+                          <h4>Blue Sea</h4>
+                          <span>HTML5 | CSS | jQuery</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- single-awesome-project end -->
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
   <!-- awesome-portfolio end -->
 
   <!-- About me section -->
-  <div class="container-fluid bg-3 text-center">
+  <div id="about" class="container-fluid bg-3 text-center">
     <h1>About<span id="logo-content"> Me!</span></h1>
 
-    <div id="about" class="paddsection">
+    <div class="paddsection">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-4 ">
@@ -229,8 +225,8 @@
 
     <a href="assets/beth_sergeant_resume.pdf" target="_blank">
       <button type="button" class="btn btn-defeault" id="resume-button">
-          <i class="fa fa-download" aria-hidden="true"></i>
-          My Resume</button></a>
+        <i class="fa fa-download" aria-hidden="true"></i>
+        My Resume</button></a>
 
   </div>
   <!-- End of about section -->
@@ -321,6 +317,32 @@
   </footer>
 
   <script src="assets/js/animation.js"></script>
+  <script>
+      $(document).ready(function(){
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+      
+         // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+      
+          // Prevent default anchor click behavior
+          event.preventDefault();
+      
+          // Store hash
+          var hash = this.hash;
+      
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+      
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+            });
+          } 
+        });
+      })
+      </script>
 </body>
 
 </html>
