@@ -237,11 +237,24 @@ text-decoration: none;
 margin: 10px;
 }
 
+#modal-title {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#modal-subt {
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  font-size: 18px;
+}
+
 #port {
   font-family: 'Poppins', sans-serif 300;
+  text-align: left;
   color: #e52a6f;
-  font-size: 18px;
-  padding: 10px;
+  font-size: 16px;
+  padding: 5px;
   margin-top: 10px;
 }
 
@@ -252,6 +265,10 @@ margin: 10px;
   padding: 20px;
   height: 100%;
   width: 100%;
+}
+
+.modal-footer {
+  text-align: left;
 }
 
 /* ------------------------------- */
