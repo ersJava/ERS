@@ -330,6 +330,11 @@ margin: 10px;
   font-size: 14px;
 }
 
+#milo-link {
+  color: white;
+  font-weight: 500;
+}
+
 /* ------------------------------- */
 /* Contact Section */
 /* ------------------------------- */
