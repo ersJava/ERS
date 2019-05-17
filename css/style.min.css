@@ -1,0 +1,154 @@
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
+}
+
+/* My Styles */
+
+/* Navbar styles */
+#logo {
+    font-family: 'Kristi', cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.nav-link {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-flex-icons {
+    font-size: 22px;
+}
+/* Navbar styles ends */
+
+/* Landing */
+.landing-logo {
+    font-family: 'Kristi', cursive;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.landing-text {
+    font-size: 34px;
+}
+
+.landing-p {
+    font-size: 20px;
+}
+/* Landing ends */
+
+
+/* Sections */
+.logo-font-title {
+    font-family: 'Kristi', cursive;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contact {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+/* Section ends */
+
+
+/* About */
+#me {
+    width: 350px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: rgb(30, 158, 201) !important;
+}
+
+#milo-link {
+    color: rgb(30, 158, 201) !important;
+}
+/* About ends */
+
+/* Projects */
+.project-title {
+    color: #ffffff;
+}
+
+.project-subtitle {
+    color: #ffffff;
+}
+
+.flex-center p {
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.flex-center h2 {
+    position: relative;
+    bottom: 26px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* Projects end */
+
+/* Modal */
+.modal-title {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.modal-header {
+    background-color: rgb(30, 158, 201) !important;
+}
+
+.btn-outline-info {
+    color: rgb(30, 158, 201) !important;
+}
+
+btn .btn-info {
+    color: rgb(30, 158, 201) !important;
+}
+
+/* Modal ends */
+
+/* Contact */
+.cyan-text {
+    color: rgb(30, 158, 201) !important;
+}
+/* Contact ends */

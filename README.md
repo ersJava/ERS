@@ -1,8 +1,14 @@
-# ERS
+Features I want to add later:
 
-Things to add
+colorful scroll bar : https://mdbootstrap.com/docs/jquery/javascript/scroll/
 
-1. Hover effect on Nav Logo
-2. Active tab effect on each section
-3. CSS animation in hello page - to do a wave effect
-5. Add a different cursor for site
+Make the page dymanic https://mdbootstrap.com/education/bootstrap/portfolio-lesson-8/
+
+Add color to titles
+
+revisit some of the descriptions of projects
+
+
+
+
+
